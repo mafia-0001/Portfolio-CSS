@@ -1,0 +1,150 @@
+/* General Reset */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Header */
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 8px 16px;
+  border-radius: 4px;
+}
+
+nav a:hover {
+  background-color: #023e8a;
+}
+
+/* Sections */
+section {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+h2 {
+  color: #0077b6;
+  margin-bottom: 20px;
+}
+
+/* About Section */
+#about img {
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px gray;
+  margin: 15px 0;
+}
+
+#projects img[src="images/webplayer.png"] {
+    width: 700px;   
+    height: auto;   
+    display: block;
+    margin: auto;
+}
+
+#projects img[src="images/webform.png"] {
+    width: 700px;   
+    height: auto;   
+    display: block;
+    margin: auto;
+}
+
+
+/* Skills Table */
+table {
+  border-collapse: collapse;
+  width: 350px;
+  background-color: #e6e6e6;
+  margin: 50px auto;
+  border: 2px solid blue;
+}
+
+td {
+  border: 1px solid blue;
+  padding: 8px;
+}
+
+td:first-child {
+  width: 100px;
+  font-weight: bold;
+  text-align: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 95%;
+  padding: 4px;
+}
+
+textarea {
+  height: 50px;
+}
+
+.btn-container {
+  text-align: center;
+  padding: 10px;
+}
+
+.send-btn {
+  background-color: cyan;
+  border: 1px solid black;
+  padding: 5px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+/* Back to Top */
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #0077b6;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.back-to-top:hover {
+  background-color: #023e8a;
+}
+
+/* Footer */
+footer {
+  background-color: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+hr {
+  width: 80%;
+  border: 1px solid #90e0ef;
+  margin: 30px auto;
+}
