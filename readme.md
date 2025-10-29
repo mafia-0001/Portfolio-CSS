@@ -5,6 +5,12 @@ It showcases my skills, projects, and creative design — built completely from 
 
 ---
 
+## 🔗 Live Demo
+Check out the deployed website here:  
+👉 **[View Portfolio](https://mafia-0001.github.io/Portfolio-CSS/)**  
+
+---
+
 ## 🚀 Project Overview
 This project is a simple yet professional portfolio website created with HTML and CSS only.  
 It helps me represent my work, achievements, and contact information in a visually appealing layout.
@@ -43,3 +49,4 @@ It helps me represent my work, achievements, and contact information in a visual
 1. Clone this repository  
    ```bash
    git clone https://github.com/mafia-0001/Portfolio-CSS.git
+o-CSS.git
